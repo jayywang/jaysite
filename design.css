@@ -31,24 +31,8 @@
 
 
 
-
-
-/*GALLERY*/
-#designrow2 {
-  background-color: #7C9ECE;
-  padding: 100px;
-  padding-top: 75px;
-  padding-bottom: 75px;
-  width: 1000px;
-  margin: 10px;
-  margin-left: auto;
-  margin-right: auto;
-
-  border-radius: 20px;
-  box-shadow: 3px 3px 10px rgba(0,0,0,.2);
-}
-
-.buttons {
+/*GALLERY NEW*/
+#myBtnContainer {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -59,7 +43,7 @@
   width: 1210px;
 }
 
-.buttons button {
+.btn {
   transition-duration: .5s;
   
   width: 450px;
@@ -72,84 +56,68 @@
   font-weight: 500;
   box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
   margin: 5px;
-
 }
 
-.buttons button:hover, .buttons .btn-clicked {
+.btn:hover {
   background-color: #034078;
   color: white;
 }
 
-.images {
-  max-width: 1250px;
-  margin: 0 auto;
+.btn.active {
+  background-color: black;
+  color: white;
+}
+
+
+.content img {
+  width: 385px;
+  height: 481.22px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,.2);
+}
+
+.column {
+  width: 385px;
+  height: 550px;
+
+  box-shadow: 3px 3px 10px rgba(0,0,0,.2);
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  flex-direction: row;
   flex-wrap: wrap;
-  row-gap: 22px;
+  justify-content: space-between;
+}
+
+.designgalleryprojecttitle {
+  margin: 0px;
+  padding: 15px;
   padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  color: black;
 }
 
-.images img {
-  width: 280px;
-  height: 350px;
+.designgalleryprojectp {
   margin: 0px;
-  border-radius: 0.2px;
-  transform: 0.6s;
-  object-fit: fill;
-
-  box-shadow: 0 0 10px 1px lightgray;
+  padding-left: 15px;
+  font-size: 12px;
+  color: dimgray;
 }
 
-.images .longer {
-  width: 576px;
-  height: 375px;
-  margin: 0px;
-  border-radius: 0.2px;
-  transform: 0.6s;
+.column {
+  display: none;
 }
 
-.images .img-expand {
-  width: 280px;
-  margin: -1px;
+.show {
+  display: block;
 }
-
-.images .img-shrink {
-  width: 0px;
-  margin: -1px;
-}
-
-
-@media screen and (max-width: 1439px) {
-  .images {
-    max-width: 896px;
-  }
-}
-
-@media screen and (max-width: 986px) {
-  .images {
-    align-items: center;
-    flex-direction: column;
-  }
-  .images img {
-    margin-right: 0 !important;
-    margin-left: 0 !important;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .buttons button {
-    width: 100%;
-    display: block;
-  }
-  .images
-  .img-expand
-  .images img {
-    width: 100%;
-  }
-}
-
 
 
 

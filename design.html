@@ -32,64 +32,167 @@
 
 
 <!-- DESIGN SECTION -->
-	<div id="design">
+  <div id="design">
       
-	      <h1 id="designheading">DESIGN.</h1>
-	      <div id="designrow1">
-	        <h1>Design is everywhere.</h1>
-	        <p class="designsubheading">
-	          From social media to web development, from publication to UI/UX
-	          design, from product to tiktok videos, I enjoy channeling my
-	          creativity through my versatility in design. From Photoshop to Figma, I love using different softwares for my projects.
-	        </p>
-	        <img
-	          src="img/designskills.png"
-	          class="designskills">
-	      </div>
+        <h1 id="designheading">DESIGN.</h1>
+        <div id="designrow1">
+          <h1>Design is everywhere.</h1>
+          <p class="designsubheading">
+            From social media to web development, from publication to UI/UX
+            design, from product to tiktok videos, I enjoy channeling my
+            creativity through my versatility in design. From Photoshop to Figma, I love using different softwares for my projects.
+          </p>
+          <img
+            src="img/designskills.png"
+            class="designskills">
+        </div>
 
 
 
-          <div class="buttons">
-               <button type="button" >All Design</button>
-              <button type="button" data-btn="2">UI/UX</button>
-              <button type="button" data-btn="3">Digital</button>
-              <button type="button" data-btn="4">Product</button>
-          </div>
-
-        <div class="images">
-              
-              
-              <img data-img="3" src="gallery/culturenight.png">
-              <img data-img="3" src="gallery/lcabr.png">
-              <img data-img="2" src="gallery/spotifyone.png">
-              <img data-img="4" src="gallery/cng.png">
-              
-
-              <img data-img="2" src="gallery/hanger.png">
-              <img data-img="3" src="gallery/poster.png">
-              <img data-img="2" src="gallery/rubiks.png">
-              <img data-img="3" src="gallery/mhandbook.png">
-            
-
-              <img data-img="2" src="gallery/converse.png">
-              <img data-img="3" src="gallery/symmetry.png">
-              <img data-img="3" src="gallery/blackpink.png">
-             
-              <img data-img="4" src="gallery/aimlove.png">
-
-
-              <img data-img="2" src="gallery/fribble.png">
-               <img data-img="2" src="gallery/spotifytwo.png">
-              <img data-img="3" src="gallery/minime.jpg">
-              <img data-img="2" src="gallery/lauv.png">
-              
-
-              <!-- <img data-img="3" src="gallery/moonspiral.png"> -->
-              <!-- <img data-img="3" src="gallery/sunspiral.png"> -->
-
-          </div>
+    <div id="myBtnContainer">
+          <button class="btn active" onclick="filterSelection('all')">Show All Designs</button>
+          <button class="btn" onclick="filterSelection('uiux')">UI/UX</button>
+          <button class="btn" onclick="filterSelection('digital')">Digital</button>
+          <button class="btn" onclick="filterSelection('product')">Product</button>
     </div>
 
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+    
+    <div class="column digital">
+      <div class="content">
+        <img src="gallery/lcabr.png" alt="Business Report">
+        <h4 class="designgalleryprojecttitle">National Winning Business Report</h4>
+        <p class="designgalleryprojectp">Photoshop, InDesign</p>
+      </div>
+    </div>
+
+
+    <div class="column uiux">
+      <div class="content">
+        <img src="gallery/spotifyone.png" alt="spotify one">
+        <h4 class="designgalleryprojecttitle">Spotify Music Player Redesign</h4>
+        <p class="designgalleryprojectp">Figma</p>
+      </div>
+    </div>
+
+
+    <div class="column product">
+      <div class="content">
+        <img src="gallery/cng.png" alt="CNG Products">
+        <h4 class="designgalleryprojecttitle">C&G Smoothies</h4>
+        <p class="designgalleryprojectp">Photoshop, Figma</p>
+      </div>
+    </div>
+
+
+    <div class="column uiux">
+      <div class="content">
+        <img src="gallery/rubiks.png" alt="Rubiks">
+        <h4 class="designgalleryprojecttitle">Rubik's Cube Webpage Design</h4>
+        <p class="designgalleryprojectp">Figma</p>
+      </div>
+    </div>    
+
+
+    <div class="column digital">
+      <div class="content">
+        <img src="gallery/culturenight.png" alt="Culture Night">
+        <h4 class="designgalleryprojecttitle">UKS Culture Night Poster</h4>
+        <p class="designgalleryprojectp">Photoshop</p>
+      </div>
+    </div>
+
+
+    <div class="column uiux">
+      <div class="content">
+        <img src="gallery/hanger.png" alt="Hanger">
+        <h4 class="designgalleryprojecttitle">Hanger App Concept</h4>
+        <p class="designgalleryprojectp">Figma</p>
+      </div>
+    </div>
+
+
+    <div class="column digital">
+      <div class="content">
+        <img src="gallery/mhandbook.png" alt="Marshall Handbook">
+        <h4 class="designgalleryprojecttitle">USC Marshall Handbook</h4>
+        <p class="designgalleryprojectp">Figma</p>
+      </div>
+    </div>
+
+
+    <div class="column uiux">
+      <div class="content">
+        <img src="gallery/converse.png" alt="Converse">
+        <h4 class="designgalleryprojecttitle">Converse App Design</h4>
+        <p class="designgalleryprojectp">Figma</p>
+      </div>
+    </div>
+
+
+    <div class="column digital">
+      <div class="content">
+        <img src="gallery/symmetry.png" alt="Symmetry">
+        <h4 class="designgalleryprojecttitle">Symmetry Line Art</h4>
+        <p class="designgalleryprojectp">Illustrator</p>
+      </div>
+    </div>
+
+
+    <div class="column uiux">
+      <div class="content">
+        <img src="gallery/fribble.png" alt="Fribble">
+        <h4 class="designgalleryprojecttitle">Fribble App Concept</h4>
+        <p class="designgalleryprojectp">Figma</p>
+      </div>
+    </div>
+
+
+    <div class="column digital">
+      <div class="content">
+        <img src="gallery/blackpink.png" alt="Blackpink Money">
+        <h4 class="designgalleryprojecttitle">Blackpink Money</h4>
+        <p class="designgalleryprojectp">Figma</p>
+      </div>
+    </div>
+
+
+    <div class="column uiux">
+      <div class="content">
+        <img src="gallery/lauv.png" alt="Lauv">
+        <h4 class="designgalleryprojecttitle">Lauv Album App Concept</h4>
+        <p class="designgalleryprojectp">Figma</p>
+      </div>
+    </div>
+
+
+    <div class="column product">
+      <div class="content">
+        <img src="gallery/aimlove.png" alt="AIM Love Hoodie">
+        <h4 class="designgalleryprojecttitle">Offical AIM Hoodie</h4>
+        <p class="designgalleryprojectp">Photoshop, Illustrator</p>
+      </div>
+    </div>
+
+
+    <div class="column uiux">
+      <div class="content">
+        <img src="gallery/spotifytwo.png" alt="spotify two">
+        <h4 class="designgalleryprojecttitle">Spotify Settings Redesign</h4>
+        <p class="designgalleryprojectp">Figma</p>
+      </div>
+    </div>
+
+
+    <div class="column digital">
+      <div class="content">
+        <img src="gallery/minime.jpg" alt="Mini Me">
+        <h4 class="designgalleryprojecttitle">Mini Me</h4>
+        <p class="designgalleryprojectp">Photoshop</p>
+      </div>
+    </div>
+</div>
 
 
 
@@ -134,49 +237,50 @@ function closeNav() {
 }
 
 
-
-
-
-// GALLERY
-const btns = document.querySelectorAll('.buttons button');
-const imgs = document.querySelectorAll('.images img');
-
-for(let i = 1; i < btns.length; i++) {
-  btns[i].addEventListener('click', filterImg);
+// FILTER GALLERY
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
 }
 
-function setActiveBtn(e) {
-  btns.forEach(btn => {
-    btn.classList.remove('btn-clicked');
-  });
-  e.target.classList.add('btn-clicked');
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
 }
 
-function filterImg(e) {
-  setActiveBtn(e);
-
-  imgs.forEach(img => {
-    img.classList.remove('img-shrink');
-    img.classList.add('img-expand');
-
-    const imgType = parseInt(img.dataset.img);
-    const btnType = parseInt(e.target.dataset.btn);
-
-    if(imgType !== btnType) {
-      img.classList.remove('img-expand');
-      img.classList.add('img-shrink');
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
     }
-  });
+  }
+  element.className = arr1.join(" ");
 }
 
-btns[0].addEventListener('click', (e) =>{
-  setActiveBtn(e);
 
-  imgs.forEach(img => {
-    img.classList.remove('img-shrink');
-    img.classList.add('img-expanded');
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
   });
-});
+}
 
 
 
