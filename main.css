@@ -256,21 +256,10 @@ a {
 	color: #034078;
 }
 
-@media (max-width: 767px) {
-
-				#mainselection {
-					flex-direction: column;
-
-				}
-
-				#aboutrow1 {
-					flex-direction: column;
-				}
-
-			}
-
 #wireframetext {
   position: relative;
   width: 450px;
   margin-left: auto;
 }
+
+
