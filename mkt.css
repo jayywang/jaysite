@@ -936,3 +936,85 @@ transform: scale(.8);
   transition: all 1s ease 0s;
   transform: scale(1.05);
 }
+
+
+
+
+
+
+
+
+
+
+.smbuttonweb1 {
+  position: absolute;
+  bottom: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  transition-duration: .5s;
+  
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #7c9ece;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 3px 3px 10px rgba(0,0,0,.2);
+}
+
+.smbuttonweb1:hover{
+  background-color: white;
+}
+
+.smbuttonweb1:hover > a{
+  color: #034078;
+}
+
+
+.smbuttonweb2 {
+  position: absolute;
+  bottom: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  transition-duration: .5s;
+  
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #7c9ece;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 3px 3px 10px rgba(0,0,0,.2);
+}
+
+.smbuttonweb2:hover{
+  background-color: white;
+}
+
+.smbuttonweb2:hover > a{
+  color: #034078;
+}
+
+
+
+.casecomputer {
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+  position: relative;
+}
+

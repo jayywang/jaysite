@@ -58,14 +58,19 @@ h4 {
 
 #namediv {
 	width: 1000px;
-	bottom: 125px;
-	left: 190px;
+	bottom: 140px;
+	left: 0px;
+	right: 0px;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
 	position: relative;
-	margin-bottom: ;
 }
 
 .mainname {
 	width: 1000px;
+	right: 75px;
+	position: relative;
 }
 
 .arrow {
@@ -261,5 +266,8 @@ a {
   width: 450px;
   margin-left: auto;
 }
+
+
+
 
 
